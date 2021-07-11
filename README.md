@@ -10,9 +10,11 @@
 
 ## 학습 목표
 
-- ### 학습 
+- ### HTML/CSS
 
-  - HTML
+  - Bootstrap4 Framework
+
+- JavaScript
 
 ### 프로그래밍 언어
 
