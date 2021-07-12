@@ -56,7 +56,7 @@
 - 안영준, 김우영 ES6 강의 수강중 [(링크)](https://www.inflearn.com/course/es6-%EA%B0%95%EC%A2%8C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/dashboard)
   - 2021-07-12 ~ 2021-07-12 
     => 섹션 0 ~ 섹션 5까지 진행
-- 이현수 HTML / CSS 강의 수강중 [(링크)](#)
+- 이현수 HTML / CSS 강의 수강중 [(링크)](http://tcpschool.com/html/intro)
   - 2021-07-12 ~ 2021-07-19
     => 섹션 1 ~ 섹션 23까지 진행
 
