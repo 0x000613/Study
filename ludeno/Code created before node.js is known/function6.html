@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+        콜백 함수를 활용하는 함수들이다.
+        forEach(), map(), filter() 등이 있다.
+        내용 추가 필요
+        */
+        let numary = [100, 200, 300, 400, 500]
+
+        numary.forEach(function(value, index, array){
+            document.write(`${index}번째 요소 : ${value}<br>`)
+        })
+
+        numary2 = numary.map(function(value, index, array){
+            return value * value
+        })
+        document.write("<br>"+numary2)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

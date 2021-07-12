@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+        일반 매개변수와 나머지 매개변수를 조합하면
+        함수가 사용되는데 쓰이는 필수적인 값과 있어도 되고 없어도 되는 값들을
+        같이 정할 수 있다.
+        */
+        function allsum(a, ...b){
+            let result = a
+            for(num of b){
+                result += num
+            }
+            return result
+        }
+        document.write(allsum(1,2,3,4,5,6,7,8,9,10))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+    /*
+    시간 형식 중 24시간을 if를 이용해서 12시간 형식으로 바꿔본다.
+    */
+    const date = new Date()
+    let hour = date.getHours()
+    document.write(hour+"시<br>")
+    if(hour > 11){
+        document.write("오후"+String(hour-12)+"시")
+    }
+    else{
+        document.write("오전"+String(hour-12)+"시")
+    }
+</script>
+</head>
+<body>
+    
+</body>
+</html>

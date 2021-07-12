@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+        Javascript는 splice 기능으로 쉽게 배열에서 값을 제거할 수 있다.
+        
+        만약 배열의 길이가 매우 길다면, 배열의 인덱스를 파악하기 함들 것이다.
+        그럴때는 indexOf 함수를 이용하여 함수의 인자값이 배열에 어디에 있는지가
+        함수의 결과 값으로 나오게 되고 그 결과 값을 splice의 첫번째 인자 값으로 주면
+        그 값이 어디에 있든지 제거가 가능하다.
+
+        추가로 splice를 이용해 배열 중간에 값을 넣는것도 가능하다.
+        */
+        let array=["HTML", "CSS", "Python", "Javascript"]
+        let locate = array.indexOf("Python")
+        document.write(locate+"<br>")
+        array.splice(locate, 1)
+        document.write(locate+" "+array+" "+array.length+"<br>")
+        array.splice(array.indexOf("CSS"), 0 ,"addElement")
+        document.write(array+" "+array.length)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+        함수의 매개변수로 함수도 인자값으로 넣을 수 있다.
+        이것을 콜백 함수라고 한다.
+        밑의 예제 코드를 보면 call이라는 함수가 있는데
+        함수 내부에서 i가 3과 같거나 작을때 까지 
+        인자값으로 받은 함수를 호출한다는 뜻이다.
+        그럼 call(docwrite) 문장에서
+        call 이라는 함수가 호출되고 
+        docwrite라는 함수가 call의 인자 값로 들어가게 된다.
+        그럼 call 함수 내부에서 반복으로 docwrite라는 함수가
+        호출 될 때 마다 변화되는 i 값이 docwrite 함수의 인자값으로 
+        들어가게 된다.
+        그럼 그때 i 값이 docwrite함수 내부로 들어가서 명령을 실행하게 된다.
+
+        콜백 함수 구현시에는 선언적 함수, 익명 함수로 구현가능
+        */
+        // 선언적 함수로 콜백함수 구현
+        function call(inputfunc){
+            for(let i = 1; i <= 3; i ++){
+                inputfunc(i)
+            }
+        }
+        function docwrite(i){
+            document.write(`${i}번째 document에 출력하기<br>`)
+        }
+        call(docwrite)
+        // 익명 함수로 콜백함수 구현
+        function call2(inputfunc){
+            for(let i = 1; i <= 3; i++){
+                inputfunc(i)
+            }
+        }
+        call2(function(i){
+            document.write(`${i}번째 document에 출력하기<br>`)
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

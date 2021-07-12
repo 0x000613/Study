@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+            기본적으로 함수 선언시에는 function 함수명(매개변수1, 매개변수2){함수내용} 이렇게 사용
+
+            함수 선언시에는 2가지 방법이 있다.
+            익명함수, 선언적 함수
+
+            익명함수는 변수를 선언해서 변수 내에 함수를 만드는 형식이며 
+            변수 이름이 곧 함수 이름이 된다.
+
+            선언적 함수는 다른 언어들과 비슷하게 함수를 만드는 형식이며
+            function 함수명(매개변수1, 매개변수2){함수내용} 딱 이렇게 만드는거이다.
+
+            그리고 함수에서 매개변수를 지정할때..
+            만약 매개변수의 개수가 일정하지 않다면?
+            나머지 매개변수를 사용하면 된다. 나머지 매개변수는 (...) 이며
+            사용법은 밑과 같다.
+            function 함수명(...매개변수){함수내용}
+            매개변수 앞에 나머지 매개변수를 붙여서 사용하면
+            매개변수 개수가 정해져있지 않아도 
+            인자 값으로 들어온 요소들이 배열로 바뀌어서 함수로 들어오게 된다.
+        */
+        let makefunc = function(a, b){
+            let result = Number(a) + Number(b)
+            return result
+        }
+        function makearray(...ary){
+            for(a of ary){
+                document.write(a+"<br>")
+            }
+        }
+        let a = prompt("Number", "0")
+        let b = prompt("Number2", "0")
+        document.write(makefunc(a, b)) 
+        document.write("<br>"+makefunc+"<br>")
+        makearray(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    </script>
+</head>
+<body>
+</body>
+</html>

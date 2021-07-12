@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        /*
+        alert 창에서 값을 입력하는 함수인 prompt
+        prompt는 인자값으로 alert 내용과 입력 값의 기본 값을 인자로 받는다.
+        그리고 입력받은 값의 기본 자료형은 문자형이다.
+
+        자료형 변환 방법으로는 각 함수를 이용하면 된다.
+        숫자 : Number()
+        문자 : String()
+        불(참, 거짓) : Boolean() => !!로 대체가능 ex) !!num
+        */
+        let num = prompt("정수값을 입력하세요", '0')
+        document.write(typeof(num),"\n")
+        document.write(num+10, "\n") // 문자형이여서 숫자처럼 계산이 되는것이 아니라 뒤에 문자열이 추가로 붙는것 처럼 계산된다.
+        num = Number(num)
+        document.write(typeof(num),"\n")
+        document.write(num+10)
+    </script>
+</body>
+</html>

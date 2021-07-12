@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+        자바스크립트에서의 for문은 python과 다르다
+        python 에서 for문에 in은 '변수 in 배열'에서 배열에 있는 
+        값들을 차례대로, 배열의 끝까지 하나씩 담게 되는데.. 
+        자바스크립트에서는 그렇게 쓰려면 '변수 of 배열'로 써야된다.
+
+        자바스크립트에서의 in은 변수에 배열의 인덱스를 저장하게 된다.
+        */
+        let array = ["HTML","CSS","JS","Python","C"]
+        for(a of array){
+            document.write(a+"<br>")
+        }
+        for(a in array){
+            document.write(a+"<br>")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
