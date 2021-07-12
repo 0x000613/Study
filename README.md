@@ -3,7 +3,9 @@
 프로그래밍 실력 증진 및 알고리즘 트레이닝을 목적으로 개설된 스터디입니다.
 
 [Github](https://github.com/XerosLab/Study)
+
 [Slack](https://join.slack.com/t/theprogrammingstudy/shared_invite/zt-sw4gaz6r-5IaozlM_2CgsOpSuRNuvLw)
+
 [HackChat](https://hack.chat?study)
 
 ## 목차
