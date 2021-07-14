@@ -58,7 +58,7 @@
     => 섹션 0 ~ 섹션 5까지 진행
 - 이현수 HTML / CSS 강의 수강중 [(TCP School)](http://tcpschool.com/html/intro) / [(goorm edu)](https://edu.goorm.io/learn/lecture/26571/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-html-css-js-%EC%9B%B9-%ED%91%9C%EC%A4%80%EC%9D%98-%EC%A0%95%EC%84%9D)
   - 2021-07-12 ~ 2021-07-19
-    => 섹션 1 ~ 섹션 26까지 진행(tcp school) / 섹션 1 진행(Goorm Edu)
+    => 섹션 1 ~ 섹션 26까지 진행(TCP School) / 섹션 1 진행(Goorm Edu)
 ## 완료된 스터디 기록
 
 - ~~스터디 방향성 의논
