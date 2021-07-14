@@ -59,7 +59,7 @@
 - 이현수 HTML / CSS 강의 수강중 [(tcp school)](http://tcpschool.com/html/intro) 
   - 2021-07-12 ~ 2021-07-19
     => 섹션 1 ~ 섹션 26까지 진행(tcp school)
-    => 섹션 1 진행(구름edu)
+     => 섹션 1 진행(구름edu)
 ## 완료된 스터디 기록
 
 - ~~스터디 방향성 의논
