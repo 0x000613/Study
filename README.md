@@ -11,11 +11,12 @@
 1. [스터디 개요](#Study)
 2. [스터디 참여자](#스터디-참여자)
 3. [스터디 목표](#스터디-목표)
-4. [스터디 진행 방식](#스터디-진행-방식)
-5. [현재 진행중인 스터디](#현재-진행중인-스터디)
-6. [완료된 스터디 기록](#완료된-스터디-기록)
+4. [학습 자료](#학습-자료)
+5. [스터디 진행 방식](#스터디-진행-방식)
+6. [현재 진행중인 스터디](#현재-진행중인-스터디)
+7. [완료된 스터디 기록](#완료된-스터디-기록)
 
-### 스터디 참여자
+## 스터디 참여자
 
 - 김우영 - Xeros
 - 안영준 - LLuden
@@ -35,6 +36,18 @@
   - React Native - Android/IOS 애플리케이션 개발
   - Electron - Windows/macOS/Linux 애플리케이션 개발
 - 알고리즘
+
+## 학습 자료
+
+#### JavaScript
+
+- [모던 자바스크립트 개발을 위한 ES6 강좌](https://www.inflearn.com/course/es6-%EA%B0%95%EC%A2%8C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/dashboard)
+- [[Node.js] 백엔드 맛보기 ](https://www.youtube.com/watch?v=2jwnbZKc66E&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs)
+
+#### HTML/CSS
+
+- [HTML 개요](http://tcpschool.com/html/intro)
+- [Do it! HTML/CSS/JS 웹 표준의 정석](https://edu.goorm.io/lecture/26571/%25EC%25A0%2580%25EC%259E%2590-%25EC%25A7%2581%25EA%25B0%2595-do-it-html-css-js-%25EC%259B%25B9-%25ED%2591%259C%25EC%25A4%2580%25EC%259D%2598-%25EC%25A0%2595%25EC%2584%259D)
 
 ## 스터디 진행 방식
 
