@@ -1,6 +1,6 @@
 // spreadOperator를 이용한 배열 삽입
 var pre = [100, 200, "hello", null];
-let newData = [0, 1, 2, 3, ...pre, 4];
+var newData = [0, 1, 2, 3, ...pre, 4];
 
 console.log(newData);
 
