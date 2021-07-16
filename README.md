@@ -35,6 +35,7 @@
   - React - 웹 프론트엔드 개발
   - React Native - Android/IOS 애플리케이션 개발
   - Electron - Windows/macOS/Linux 애플리케이션 개발
+  - TypeScript 문법 공부
 - 알고리즘
 
 ## 학습 자료
