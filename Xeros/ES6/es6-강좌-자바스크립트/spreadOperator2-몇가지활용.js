@@ -2,6 +2,9 @@
 var pre = [100, 200, "hello", null];
 var newData = [0, 1, 2, 3, ...pre, 4];
 
+console.log(...pre);
+
+console.log(pre);
 console.log(newData);
 
 // spreadOperator를 이용한 배열 삽입 2
