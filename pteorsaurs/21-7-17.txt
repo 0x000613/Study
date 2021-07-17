@@ -1,0 +1,80 @@
+1. Style
+<태그이름 style="속성이름: 속성값;">
+  - Style 속성을 적용하는 방법은 위 코드와 같다.  
+
+2. Style 적용
+<!DOCTYPE html>
+<p style="font-size: 200%;">글자 크기 변경</p>
+<p style="color: blue;">글자색 변경</p>
+<p style="background-color: blueviolet;">배경색 변경</p>
+<p style="text-align:center;">문단 정렬</p>
+<p style="font-size: 200%; color: brown; background-color: gold;">여러 스타일 설정</p>
+ 
+"font size: 크기;"
+
+  - 글자 크기를 지정한다.
+  - 글자 크기 단위는 rem, em, px, %가 있다. ( 이 부분은 css 공부할 때 알아보도록 하자. )
+
+"color: 색깔;"
+  - 글자색을 변경한다.
+
+"background-color: 색깔;"
+  - 텍스트 배경색을 변경한다.
+
+"text-align: 위치;"
+  - 문단 정렬을 한다.
+  - center는 중앙 정렬을 의미하며 오른쪽 정렬과 왼쪽 정렬을 하고 싶으면 right, left를 입력하면 된다. 이외에도 다양한 정렬이 있으니 검색해서 찾아보길 바란다.
+
+여러 스타일 적용
+  - 여러 속성들을 적용할 때 세미콜론(;)으로 구분하여 여러 속성들을 적용할 수 있다.
+
+<a> 태그
+  - Anchor의 약자로, 링크 올릴 때 사용한다.
+
+  - 텍스트나 단락, 이미지 등 다양한 HTML 요소에 사용할 수 있다.
+
+ 
+
+ 
+
+href
+<a href="주소">내용</a>
+ 
+
+  - href 속성은 Hypertext reference의 약자로, 링크를 올릴 때 사용한다.
+
+  - 주소에 원하는 사이트의 URL를 입력한다.
+
+  - 내용을 클릭하면 원하는 사이트를 접속할 수 있다.
+
+target 
+    <h1>_blank</h1>
+    <a href="http://tistory.com" target="_blank">티스토리</a>
+    <h1>_self</h1>
+    <a href="http://tistory.com" target="_self">티스토리</a>
+ 
+  - target="_blank" : 새 창이나 새 탭에서 웹 페이지가 열린다.
+  - target="_self" : 현재 탭에서 웹 페이지가 열린다.
+
+title
+<a href="http://tistory.com" title="티스토리">티스토리</a>
+  - title="내용" : 링크 위에 마우스를 올려놓으면 해당 내용이 나타난다.
+
+Style 적용
+<style>
+    a:link{color: grey; }
+    a:visited{color: red; }
+    a:hover{color: blue; }
+    a:active{color: green; }
+    a{text-decoration: line-through;} 
+</style>
+<a href="http://google.com">티스토리</a>
+ 
+  - a:link : 한 번도 방문한 적이 없는 상태 (기본설정)
+  - a:visited : 한 번이라도 방문한 적이 있는 상태
+  - a:hover : 링크에 마우스를 올려놓은 상태
+  - a:active : 링크를 마우스로 누르고 있는 상태
+  - a{text-decoration: none;} : 링크 아래에 밑줄이 사라진다.
+  - a{text-decoration: underline;} : 링크 아래에 밑줄이 그어진다. (기본설정)
+  - a{text-decoration: overline} : 링크 위에 밑줄이 그어진다.
+  - a{text-decoration: line-through} : 링크 중간에 밑줄이 그어진다.
