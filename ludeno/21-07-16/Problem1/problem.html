@@ -2,8 +2,18 @@
 <html>
 	<head>
 		<script>
-			let arr1 = document.getElementsByTagName("li");
-			console.log(arr1[0]);
+			function print() {
+				let arr1 = document.querySelectorAll('li');
+				let arr2 = Array.from(arr1);
+				let arr3 = arr2.filter(value => value.innerText.includes("e"));
+				/*
+			 document.querySelectorAll() 뭐하는 애인지
+			 정확하게 알아보기,
+			 왜 innerText를 써야하는지 알아보기
+			*/
+				console.log(arr3.length);
+			}
+			
 		</script>
 	</head>
 	<body>
