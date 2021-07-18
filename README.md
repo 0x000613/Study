@@ -1,5 +1,5 @@
 # Study
-
+![Uploading 0=="0".png…]()
 프로그래밍 실력 증진 및 알고리즘 트레이닝을 목적으로 개설된 스터디입니다.
 
 - [Github](https://github.com/XerosLab/Study)
