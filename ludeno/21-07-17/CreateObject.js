@@ -12,7 +12,11 @@ function getObj() {
 	let printName = function() {
 		console.log("Hello! My Name is"+name);
 	}
-	
+	/*return {
+		getName: getName,
+		setName: setName,
+		printName: printName
+	}*/
 	return {getName,setName,printName} 
 /* 함수 반환값으로 중괄호을 열고 프로퍼티를 넣으면 함수에 대한 반환값으로 객체가 생성된다. 원래는 일반 객체 생성하는것 처럼
 키 : 값 이런식으로 반환값을 줘야 하지만,
