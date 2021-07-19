@@ -68,10 +68,20 @@
 
 ## 현재 진행중인 스터디
 
-- 안영준, 김우영 ES6 강의 수강중 [(인프런)](https://www.inflearn.com/course/es6-%EA%B0%95%EC%A2%8C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/dashboard)
-  - 2021-07-12 ~ 2021-07-19 
-    => 섹션 0 ~ 섹션 6까지 진행
-- 이현수 HTML / CSS 강의 수강중 [(TCP School)](http://tcpschool.com/html/intro) / [(goorm edu)](https://edu.goorm.io/learn/lecture/26571/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-html-css-js-%EC%9B%B9-%ED%91%9C%EC%A4%80%EC%9D%98-%EC%A0%95%EC%84%9D)
+- 안영준, 김우영
+  [ES6 강의](https://www.inflearn.com/course/es6-%EA%B0%95%EC%A2%8C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/dashboard)
+  
+  - 2021 ~ ?
+    => 임시 중단 (모던 JavaScript 튜토리얼 먼저 진행)
+  
+   [(모던 JavaScript 튜토리얼)](https://ko.javascript.info/)
+  
+  - 2021-07-19 ~ 2021-07-26 
+    => ?
+  
+- 이현수
+  HTML / CSS 강의 수강중 [(TCP School)](http://tcpschool.com/html/intro) / [(goorm edu)](https://edu.goorm.io/learn/lecture/26571/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-html-css-js-%EC%9B%B9-%ED%91%9C%EC%A4%80%EC%9D%98-%EC%A0%95%EC%84%9D)
+  
   - 2021-07-12 ~ 2021-07-19
     => 섹션 1 ~ 섹션 26까지 진행(TCP School) / 섹션 1 진행(Goorm Edu)
 ## 완료된 스터디 기록
@@ -79,3 +89,6 @@
 - ~~스터디 방향성 의논
   2021-07-11 ~ 2021-07-12~~
 
+- 안영준, 김우영
+  ~~2021-07-12 ~ 2021-07-19 
+  => ES6 강의 섹션 0 ~ 섹션 6까지 진행~~
