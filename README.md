@@ -5,7 +5,6 @@
 
 - [Github](https://github.com/XerosLab/Study)
 - [Slack](https://join.slack.com/t/theprogrammingstudy/shared_invite/zt-sw4gaz6r-5IaozlM_2CgsOpSuRNuvLw)
-- [HackChat](https://hack.chat?study)
 
 ## 목차
 
