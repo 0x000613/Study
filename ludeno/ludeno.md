@@ -13,3 +13,7 @@ for of 완강, 전개 연산자와 argument를 이용한 Array.from 사용해보
 # 21-07-18
 JSON에서 비구조화 사용하기, 객체에서 비구조화 사용하기 커밋,
 인프런 강의는 잠시 중단 후 이제껏 공부한 내용 정리와 블로그 게시할 내용 선택 중. 그리고 javascript 기본 강의 다시 찾는중.
+
+# 21-07-19
+전개 연산자 블로그 게시 
+- [ludeno Tistory](https://ludeno-studying.tistory.com/70)

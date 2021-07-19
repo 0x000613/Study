@@ -23,8 +23,8 @@ let jsonVar = [
 ];
 // 함수로 응용
 // 함수에서도 Destructuring을 사용 가능하다.
-function getLecturedBy([,{lecturedBy}]) {
-	console.log(lecturedBy);
+function getLecturedBy([{StudyContents}]) {
+	console.log(StudyContents);
 }
 
 getLecturedBy(jsonVar);
