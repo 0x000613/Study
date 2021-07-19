@@ -73,7 +73,7 @@
   - 2021 ~ ?  
     => 임시 중단 (모던 JavaScript 튜토리얼 먼저 진행)
   
-   [(모던 JavaScript 튜토리얼)](https://ko.javascript.info/)
+   [모던 JavaScript 튜토리얼](https://ko.javascript.info/)
   - 2021-07-19 ~ 2021-07-26  
     => 섹션 1-1 ~ 섹션 2.18
   
