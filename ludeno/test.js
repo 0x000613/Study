@@ -1,14 +1,10 @@
-let Person = {
+let obj = {
 	name : "ludeno",
-	language : "Javascript"
-};
-let Korean = {
-	from : "Korea",
-	UsedIDE : "Vscode"
-};
+	From : "Korea",
+	Learn : "Javascript",
+	BlogURL : "https://ludeno-studying.tistory.com"
+}
 
-let mergeObj = {...Person, ...Korean};
+let {name:myName, Learn:language} = obj;
 
-console.log(mergeObj);
-
-
+console.log(myName, language);

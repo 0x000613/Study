@@ -6,7 +6,8 @@
 let obj = {
 	name : "ludeno",
 	From : "Korea",
-	age : 21
+	Learn : "Javascript",
+	Blog : "https://ludeno-studying.tistory.com"
 }
 
 let {name, age, From} = obj; 
