@@ -79,10 +79,10 @@
     => 섹션 1-1 ~ 섹션 2.18
   
 - 이현수  
-  HTML / CSS 강의 수강중 [(TCP School)](http://tcpschool.com/html/intro) / [(goorm edu)](https://edu.goorm.io/learn/lecture/26571/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-html-css-js-%EC%9B%B9-%ED%91%9C%EC%A4%80%EC%9D%98-%EC%A0%95%EC%84%9D)
+  HTML / CSS 강의 수강중 [(TCP School)](http://tcpschool.com/css/intro)
   
-  - 2021-07-19 ~ 2021-07-20  
-    => 섹션 1 ~ 섹션 26(TCP School) / 섹션 1(Goorm Edu) 내용 정리 후 블로그 글 작성
+  - 2021-07-21 ~ 2021-07-28  
+    => 섹션 1-1 ~ 섹션 3-19
 ## 완료된 스터디 기록
 
 - ~~스터디 방향성 의논~~  
@@ -95,3 +95,6 @@
 - 이현수  
   ~~2021-07-12 ~ 2021-07-19~~  
   ~~=> 섹션 1 ~ 섹션 26까지 진행(TCP School) / 섹션 1 진행(Goorm Edu)~~
+
+  ~~2021-07-19 ~ 2021-07-20~~
+  ~~=> 섹션 1 ~ 섹션 26(TCP School) / 섹션 1(Goorm Edu) 내용 정리 후 블로그 글 작성~~
