@@ -23,3 +23,6 @@ JSON에서 비구조화 사용하기, 객체에서 비구조화 사용하기 커
 - [ludeno Tistory](https://ludeno-studying.tistory.com/71)
 모던 Javascript 튜토리얼의 [2.12 null 병합 연산자](https://ko.javascript.info/nullish-coalescing-operator) 공부 하는 중
 null 병합 연산자 추가 공부 필요.
+
+# 21-07-21
+모던 Javascript 튜토리얼 다시 읽기 시작해서 1.1~2.9 까지 읽음.
