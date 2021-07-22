@@ -26,3 +26,7 @@ null 병합 연산자 추가 공부 필요.
 
 # 21-07-21
 모던 Javascript 튜토리얼 다시 읽기 시작해서 1.1~2.9 까지 읽음.
+
+# 21-07-22
+모던 Javascript 튜토리얼 [2.16 함수 표현식](https://ko.javascript.info/function-expressions)
+에서 콜백함수 전까지 읽음, 강의 보면서 나온 문제들을 풀어봄, nodeJsInput.js는 nodejs에서 터미널을 이용해 사용자의 입력값을 받기 위한 코트 예시이다.
