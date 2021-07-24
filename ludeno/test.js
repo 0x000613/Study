@@ -1,10 +1,8 @@
-let obj = {
-	name : "ludeno",
-	From : "Korea",
-	Learn : "Javascript",
-	BlogURL : "https://ludeno-studying.tistory.com"
-}
-
-let {name:myName, Learn:language} = obj;
-
-console.log(myName, language);
+let betweenArr = (a, b) => {
+	let result = [];
+	for(i = a; i <= b; i++){
+		result.push(i);
+	}
+	return result;
+};
+console.log(betweenArr(10,20));
