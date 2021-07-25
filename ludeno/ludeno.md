@@ -44,3 +44,7 @@ null 병합 연산자 추가 공부 필요.
 
 화살표 함수에 대해 블로그 게시
 - [ludeno Tistory](https://ludeno-studying.tistory.com/73)
+
+## 21-07-25
+콜백 함수에 대해 블로그 게시
+- [ludeno Tistory](https://ludeno-studying.tistory.com/74)
