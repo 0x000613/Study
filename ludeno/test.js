@@ -1,10 +1,18 @@
-let obj = {
-	name : "ludeno",
-	From : "Korea",
-	Learn : "Javascript",
-	BlogURL : "https://ludeno-studying.tistory.com"
-}
+let numary = [100, 200, 300, 400, 500];
 
-let {name:myName, Learn:language} = obj;
+numary.forEach((value, index, array) => 
+	console.log(`${array}에서 ${index}번째의 값인 ${value} 입니다.`)
+);
+/* 화살표 함수를 사용했을 시
+numary.forEach((value, index, array) => 
+	console.log(`${array}에서 ${index}번째의 값인 ${value} 입니다.`)
+);
 
-console.log(myName, language);
+*/
+/*
+100,200,300,400,500에서 0번째의 값인 100 입니다.
+100,200,300,400,500에서 1번째의 값인 200 입니다.
+100,200,300,400,500에서 2번째의 값인 300 입니다.
+100,200,300,400,500에서 3번째의 값인 400 입니다.
+100,200,300,400,500에서 4번째의 값인 500 입니다.
+*/
