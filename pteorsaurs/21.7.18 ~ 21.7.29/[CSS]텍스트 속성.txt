@@ -1,0 +1,112 @@
+1. 텍스트(text) 속성
+  
+  - color
+  - direction
+  - letter-spacing
+  - word-spacing
+  - text-indent
+  - text-align
+  - text-decoration
+  - text-transform
+  - line-height
+  - text-shadow
+ 
+1-1 color
+
+<style>
+    body {color: blue;}
+    p {color: red;}
+</style>
+
+  - color 속성은 글자 색을 설정한다.
+  - <body> 태그에 속해있는 모든 텍스트는 파란색으로 나타난다.
+  - 각 요소별로 지정된 color 속성값이 있다면 <body>태그에 지정된 속성값보다 우선 적용되므로 <p> 태그는 빨간색으로 나타난다.
+
+1-2 direction
+<style>
+    body {direction: rtl;}
+</style>
+
+  - 텍스트가 써지는 방향을 설정한다.
+  - ltr : ltr(left to right)은 왼쪽에서 오른쪽 방향으로 써진다.
+    rtl : rtl(right to left)은 오른쪽에서 왼쪽 방향으로 써진다.
+
+1-3 letter-spacing 
+
+<style>
+    body {letter-spacing: 10px;}
+    p {letter-spacing: -10px;}
+</style>
+
+  - 글자와 글자 사이의 간격을 넓히거나 좁혀준다.
+  - 속성값이 양수면 간격을 넓혀주고, 음수일 경우 좁혀준다.
+
+1-4 word-spacing
+
+<style>
+    body {word-spacing: 20px;}
+    p {letter-spacing: 5px;}
+</style>
+
+  - 단어와 단어 사이의 간격을 넓히거나 좁혀준다. 
+  - 속성값이 양수면 간격을 넓혀주고, 음수일 경우 좁혀준다.
+
+1-5 text-indent
+
+<style>
+    body {text-indent: 10px;}
+    p {text-indent: -10px;}
+</style>
+
+  - 들여쓰기와 내어쓰기를 설정한다.
+  - 속성값이 양수면 들여쓰기를 하며, 음수일 경우 내어쓰기를 한다.
+
+1-6 text-align
+
+<style>
+    body {text-align: center;}
+</style>
+
+  - 텍스트 정렬 방향을 설정한다.
+  - center : 가운데 정렬
+    right : 오른쪽 정렬
+    left : 왼쪽 정렬
+
+1-7 text-decoration
+
+<style>
+    body{text-decoration: overline;}
+</style>
+  
+  - 텍스트의 밑줄, 윗줄, 취소선을 설정한다.
+  - overline : 윗줄
+    line-through : 취소선 
+    underline : 밑줄
+
+1-8 text-transform
+<style>
+    body {text-transform: uppercase;}
+</style>
+
+  - 텍스트의 대문자를 소문자로 바꾸거나 소문자를 대문자로 바꾸며, 단어의 첫 문자만 대문자로 바꾼다.
+  - uppercase : 대문자 -> 소문자
+    lowercase : 소문자 -> 대문자
+    capitalize : 단어 첫 문자를 대문자로
+ 
+1-9 line-height
+<style>
+    body {line-height: 10px;}
+</style>
+
+  - 텍스트의 줄 간격을 설정한다.
+
+1-10 text-shadow
+<style>
+    body {text-shadow: 10px 20px 2px gray;}
+</style>
+
+  - 텍스트에 그림자 효과를 설정한다.
+  - body { text-shadow: offset-x offset-y blur-radius shadow-color }
+  - offset-x : 그림자의 수평 거리 / offset-y : 그림자의 수직 거리
+  - blur-radius 그림자의 흐림 정도를 정한다.
+  - shadow-color : 그림자의 색깔을 정한다.

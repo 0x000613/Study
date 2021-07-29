@@ -1,0 +1,181 @@
+1. 패딩(padding)
+
+  - 내용(content)과 테두리(border) 사이의 간격이다. 
+  - 패딩은 눈에 보이지 않는다.
+
+2. 패딩의 속성
+
+  - 패딩의 속성은 top, right, bottom, left 순으로 설정한다.
+
+2-1 1개의 padding 속성값을 가질 때
+
+ex) padding: 5px;
+=> padding-top: 5px
+     padding-right: 5px
+     padding-bottom: 5px
+     padding-left: 5px
+
+2-2 2개의 padding 속성값을 가질 때
+
+ex) padding: 10px 20px;
+=> padding-top: 10px
+     padding-right: 20px
+     padding-bottom: 10px
+     padding-left: 20px
+
+2-3 3개의 padding 속성값을 가질 때
+
+ex) padding: 10px 20px 30px;
+=> padding-top: 10px
+     padding-right: 20px
+     padding-bottom: 30px
+     padding-left: 20px
+
+2-4 4개의 padding 속성값을 가질 때
+
+ex) padding: 10px 20px 30px 40px;
+=> padding-top: 10px
+     padding-right: 20px
+     padding-bottom: 30px
+     padding-left: 40px
+
+1. 테두리 종류
+solid
+dotted
+dashed
+double
+outset
+inset
+ridge
+groove
+ 
+1-1 border
+<style>
+    .solid {border: solid; text-align: center; width: 30rem;}
+    .dotted {border: dotted; text-align: center; width: 30rem;}
+    .dashed {border: dashed; text-align: center; width: 30rem;}
+    .double {border: double; text-align: center; width: 30rem;}
+    .outset {border: outset; text-align: center; width: 30rem;}
+    .inset {border: inset; text-align: center; width: 30rem;}
+    .ridge {border: ridge; text-align: center; width: 30rem;}
+    .groove {border: groove; text-align: center; width: 30rem;}
+</style>
+<body>
+    <p class="solid">border: solid</p>
+    <p class="dotted">border: dotted</p>
+    <p class="dashed">border: dashed</p>
+    <p class="double">border: double</p>
+    <p class="outset">border: outset</p>
+    <p class="inset">border: inset</p>
+    <p class="ridge">border: ridge</p>
+    <p class="groove">border: groove</p>
+</body>
+ 
+1-2 테두리(border)의 위쪽, 오른쪽, 아래쪽, 왼쪽 설정
+
+<style>
+    .border { 
+        border-top-style: solid;
+        border-right-style: ridge;
+        border-bottom-style: double;
+        border-left-style: dotted;
+    }
+</style>
+
+  - 테두리의 위쪽, 오른쪽, 아래쪽, 왼쪽 부분에 대하여 개별적으로 스타일을 적용할 수 있다.
+
+ 
+
+2. 테두리(border) 모양
+
+2-1 border-radius
+
+<style>
+    .radius {border: solid; border-radius: 5px; width: 30rem; text-align: center;}
+</style>
+
+  - 테두리의 모양을 둥글게 설정한다.
+
+1. 마진(margin)
+
+  - 바깥 영역과 테두리 사이의 간격이다.
+  - 마진은 눈에 보이지 않는다.
+
+2. 마진의 속성
+
+  - 마진의 속성은 패딩(padding)의 속성과 동일하게 top, right, bottom, left 순으로 설정한다.
+
+2-1 1개의 margin 속성값을 가질 때
+
+ex) margin: 5px;
+=> margin-top: 5px
+     margin-right: 5px
+     margin-bottom: 5px
+     margin-left: 5px
+
+2-2 2개의 margin 속성값을 가질 때
+
+ex) margin: 10px 20px;
+=> margin-top: 10px
+     margin-right: 20px
+     margin-bottom: 10px
+     margin-left: 20px
+
+2-3 3개의 margin 속성값을 가질 때
+
+ex) margin: 10px 20px 30px;
+=> margin-top: 10px
+     margin-right: 20px
+     margin-bottom: 30px
+     margin-left: 20px
+
+2-4 4개의 margin 속성값을 가질 때
+
+ex) margin: 10px 20px 30px 40px;
+=> margin-top: 10px
+     margin-right: 20px
+     margin-bottom: 30px
+     margin-left: 40px
+
+3. margin: auto
+
+<style>
+    div.a {
+        width: 200px; height: 200px;
+        border: solid 1px black;
+        margin: auto;
+        }
+</style>
+
+  - margin 속성값을 auto로 입력 시 수평 방향 값을 자동으로 가운데로 설정한다.
+
+1. 아웃라인(outline)
+
+  - outline 속성과 border 속성은 비슷하다. border가 테두리면 outline은 바깥 외곽선이라고 말한다.
+  - 요소를 두드러져 보이게 만들고자 할 때 사용한다.
+
+outline-style 
+outline-width
+outline-color
+outline-offset
+
+1-1 outline 여러 가지 속성
+<style>
+   div {width: 150px; height: 80px;}
+   div.a 
+    { 
+        border: solid 3px skyblue;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: gray;
+        outline-offset: 5px;
+    }
+</style>
+<body>
+    <div class="a"></div>
+</body>
+
+  - outline-style은 [CSS] 테두리(border) 참고
+  - style, width, color 적용방법은 border와 동일하므로 설명은 필요 없을 거 같다.
+  - outline의 축약 방법 또한 border와 동일하다.
+  - outline-offset : border로부터 속성값만큼 간격을 띄운다.

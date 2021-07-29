@@ -1,0 +1,21 @@
+<h1>div</h1>
+    <div style="font-size: 2rem; color: blue; background-color: gray;">
+    여러 요소를 묶어 한 번에 스타일을 적용할 수 있다.
+    </div>
+    
+<h1>span</h1>
+    <span style="font-size: 2rem; color: red; background-color: gray;">
+    특정 부분를 묶어 스타일을 적용할 수 있다.
+    </span>
+
+<div> ~ </div>
+  - Division의 약자로, 여러 요소를 묶어 한 번에 속성으로 꾸밀 수 있다.
+  - 박스 형태로 영역을 설정하기 때문에 배경색이 박스 형태로 채워지고, width, height로 크기 지정이 가능하다.
+  - 자동으로 줄바꿈이 된다.
+  - Block 속성이다.
+
+<span> ~ </span>
+  - 지정한 부분만 속성으로 꾸밀 수 있다.
+  - 일정 범위를 지정하기 때문에 배경색이 지정한 텍스트만 채워지고, width, height로 크기 지정이 불가능하다.
+  - 자동으로 줄바꿈이 되지 않는다.
+  - Inline 속성이다.

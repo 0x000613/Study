@@ -1,0 +1,28 @@
+1. 오디오와 비디오
+<audio src="파일 경로">내용(웹 브라우저가 지원하지 않을 때 표시)</audio>
+<video src="파일 경로">내용(웹 브라우저가 지원하지 않을 때 표시)</video>
+ 
+  - 동영상과 비디오를 올리기 위해서는 파일 경로를 알아야 한다.
+  - 내용은 웹 브라우저가 해당 멀티미디어를 지원하지 않을 때 표시된다.
+
+2. 오디오와 비디오 속성
+<audio src="파일 경로" controls>재생 막대 표시</audio>
+<audio src="파일 경로" autoplay>자동 재생</audio>
+<audio src="파일 경로" loop>반복 재생</audio>
+<audio src="파일 경로" muted>소리 음소거</audio>
+<audio src="파일 경로" preload="auto">동영상과 메타데이터 모드 로드한다.</audio>
+<audio src="파일 경로" preload="metadata">메타데이터만 로드한다.</audio>
+<audio src="파일 경로" preload="none">로드하지 않는다.</audio>
+<video src="파일 경로" width="400" height="400">비디오 플레이어의 너비와 높이를 지정</video>
+<video src="파일 경로" poster="이미지 경로">썸네일 표시</video>
+ 
+  - Controls : 재생 막대를 표시한다.
+  - Autoplay : 자동으로 재생한다.
+  - Loop : 반복 재생한다.
+  - Muted : 소리를 음소거한다.
+  - preload : 페이지를 열 때 어떻게 로드할지 정한다.
+     1. preload = "auto" : 동영상, 메타데이터 모두 로드한다. (기본 설정)
+     2. preload = "metadata" : 메타데이터만 로드한다.
+     3. preload = "none" 로드하지 않는다.
+  -  width, height : 동영상의 너비와 높이를 지정한다. 
+  - poster : 동영상에 썸네일을 넣을 때 사용하며, 넣지 않을 경우 검은 화면으로 표시된다.

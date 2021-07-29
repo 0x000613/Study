@@ -1,0 +1,52 @@
+1. CSS
+  - CSS는 Cascading Style sheet의 약자다.
+  - CCS는 HTML 요소들을 디자인하기 위해 사용되는 스타일 시트 언어다.
+  - HTML만으로 웹 페이지를 제작할 경우 작업 시간이 오래 걸리며, 스타일의 변경 및 유지 보수가 매우 힘들어진다. 이를 보완하기 위해 W3C(World Wide Web Consortium)에서 CSS를 만들었다.
+
+2. CSS 문법
+h1 {color: red; font-size: 20px;}
+ 
+  - CSS는 선택자(Selector)와 선언부(Declaratives)로 구성된다.
+  - 선택자는 CSS를 적용하고자 하는 HTML 요소를 가리킨다.
+  - 선언부는 중괄호({ }) 안에 속성명(Property)과 속성값(Value)을 가지며, 복수로 선언할 경우 세미콜론(;)으로 구분한다.
+  - 여기서 속성명은 color, font-size이며, 속성값은 red, 20px이다.
+  - 마지막에는 세미콜론(;)으로 끝마친다.
+
+3. HTML 선택자
+  - 종류 : HTML 요소 선택자, 아이디(id) 선택자, 클래스(class) 선택자, 그룹(group) 선택자 등
+
+3-1. HTML 요소 선택자
+p { color: blue; background-color: green;}
+ 
+  - HTML 요소의 이름을 직접 사용하여 선택할 수 있다.
+
+3-2. 그룹(group) 선택자
+h1, h2 { color: blue; background-color: green;}
+  - 여러 선택자를 같이 사용하고 싶을 때 사용한다.
+  - 여러 선택자는 쉼표(,)로 구분하여 사용한다.
+  - 그룹 선택자는 코드를 중복해서 작성하지 않으므로 코드를 간결하게 만들어준다.
+
+3-3. 아이디(id) 선택자
+/*CSS*/
+#heading { color: blue; background-color: green;}
+
+<!-- HTML -->
+<h1 id="heading">제목</h1>
+  
+  - 특정 아이디 이름을 가지는 요소만을 선택한다.
+  - HTML 문서에서 특정 id속성값은 오직 하나만 있어야 한다.
+
+3-4. 클래스(class) 선택자
+/*CSS*/
+    .heading { color: blue; background-color: green;}
+
+<!-- HTML -->
+<h1 class="heading">제목</h1>
+<h2 class="heading">제목</h2>
+ 
+  - 특정 집단의 여러 요소를 한 번에 선택할 때 사용한다.
+  - 같은 클래스 이름을 가지는 요소들을 모두 선택한다.
+
+4. 주석
+/*주석내용*/
+- CSS에서 주석을 표시하고 싶을 때는 /* */안에 내용을 입력한다.

@@ -1,0 +1,97 @@
+1. font 속성
+
+  - font-family
+  - font-style
+  - font-variant
+  - font-weight
+  - font-size
+ 
+1-1 font-family
+<style>
+    body {font-family: 'Times New Roman', Times, serif;}
+</style>
+
+  - 하나 및 여러 개의 글꼴을 같이 설정할 수 있다.
+  - 여러 개의 글꼴을 설정할 경우, 웹 브라우저가 위에서부터 순서대로 읽어 들인다.
+  - 첫 번째로 읽어 들인 글꼴이 없으면 다음 글꼴을 확인한다.
+  - 한 단어 이상으로 이루어진 글꼴은 따옴표 안에 작성한다.
+  -  한글 글꼴도 작성 가능하다.
+  -  CSS Demo: font-family 참고
+
+1-2 font-style
+
+<style>
+    body {font-style: italic;}
+</style>
+
+  - 텍스트의 스타일을 지정하며, 주로 이탤릭체를 사용하기 위해 사용한다고 한다.
+  - italic : 이탤릭체
+  - oblique : 텍스트가 기울임꼴로 표시되며, 이탤릭체랑 매우 유사하다.
+  - nomal : 스타일을 적용하지 않는다.
+
+1-3 font-variant
+
+<style>
+    body {font-variant: small-caps;}
+</style>
+
+  - 영문자중 소문자는 작은 대문자로 바뀌며, 대문자는 기존 크기 그대로 출력한다.
+  - small-caps : 소문자 -> 작은 대문자 / 대문자는 기존 크기 그대로 출력
+  - normal : 속성을 적용하지 않는다.
+
+ 
+
+1-4 font-weight
+
+<style>
+   body {font-weight: 300;}
+</style>
+
+  - 글자 굵기를 설정한다.
+  - 속성값으로 입력 가능한 숫자는 100, 200, 300, 400, 500, 600, 700, 800, 900이다.
+  - normal : 속성을 적용하지 않으며, 숫자 400과 같다.
+  - bold 글자를 굵게 표현하며, 숫자 700과 같다.
+
+1-5 font-size
+
+<html style="font-size: 16px;"><!--기본 글자 크기 16px-->
+<style>
+    #body {font-size: 21px}
+    #rem {font-size: 1rem;} /* 1rem = 16px*/
+    #퍼센트 {font-size: 100%;} 
+    #medium {font -size: medium;}
+    #xx-small {font-size: xx-small;}
+    #xx-large {font-size: xx-large;}
+    #x-small {font-size: x-small;}
+    #x-large {font-size: x-large;}
+    #small {font-size: small;}
+    #large {font-size: large;}
+</style>
+<body id="body">
+    <p id="rem">rem</p> <!-- <html> 태그의 크기에 비례 -->
+    <p id="퍼센트">퍼센트</p> <!-- 부모 요소의 크기에 비례 -->
+    <p id="medium">medium</p> <!-- 부모 요소의 크기와 동일 -->
+    <p id="xx-small">xx-small</p> <!-- 10px -->
+    <p id="xx-large">xx-large</p> <!-- 32px -->
+    <p id="x-small">x-small</p> <!-- 10px -->
+    <p id="x-large">x-large</p> <!-- 24px -->
+    <p id="small">small</p> <!-- 13px -->
+    <p id="large">large</p> <!-- 18px -->
+</body>    
+</html>
+
+  - <html> 태그 : 기본 텍스트 크기는 16px다.
+  - px : 절대적 크기로 텍스트의 크기가 변하지 않는다.  
+  - rem : <html> 태그의 크기에 비례한다.
+  - % : 부모 요소의 크기에 비례한다. 
+  - medium : 부모 요소의 크기와 동일하다.
+  - xx-small : 10px
+  - x-small : 10px
+  - small : 13px
+  - xx-large : 32px 
+  - x-large : 24px 
+  - large : 18px 
+
+ 
+
+위 코드는 Chrome을 기준으로 한 값이다. xx-small 크기와 x-small 크기가 동일한 이유는 chrome에서 지원하는 최소 글자 크기가 10px이므로 둘의 크기가 동일하게 나온다.

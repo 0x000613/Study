@@ -1,0 +1,85 @@
+1. 배경(background)
+
+  - background-color
+  - background-image
+  - background-repeat
+  - background-position
+  - background-attachment
+
+1-1. background-color
+
+<style>
+    h1 {background-color: blue;}
+</style>
+
+  - HTML 요소의 배경색을 설정한다.
+
+1-2. background-image
+
+<style>
+    body {background-image: url(dog.jpg);}
+</style>
+  
+  - 배경 이미지를 설정하며, url을 통해 배경 이미지가 반복되어 표시된다.
+  - 배경 이미지를 사용할 때 본문의 텍스트를 방해하지 않도록 한다.
+  - url은 소괄호 안에 이미지 경로를 넣어준다.
+
+1-3 background-repeat
+
+<style>
+    body {background-image: url(dog.jpg);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    }
+</style>
+
+  - 설정된 배경 이미지의 반복 유무 및 방향을 설정한다.
+  - repeat-x : 수평 방향(가로)으로 반복한다.
+  - repeat-y : 수직 방향(세로)으로 반복한다.
+  - repeat : 수평 방향과 수직 방향으로 반복한다.
+  - no-repeat : 반복되지 않는다.
+
+1-4. background-position
+
+<style>
+    body {
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: 100% 100%;
+    }
+</style>
+
+  - 반복되지 않는 배경 이미지의 상대 위치를 설정한다.
+  - left right, top, bottom : 왼쪽, 오른쪽, 위, 아래
+  - left top, left center, left bottom : 왼쪽 위에, 왼쪽 가운데, 왼쪽 아래
+  - right top, right center, right bottom : 오른쪽 위에, 오른쪽 가운데, 오른쪽 아래
+  - center top, center center, center bottom : 가운데 위, 가운데, 가운데 밑
+  - 퍼센트(%)나 픽셀(px) 등을 사용하여 상대 위치를 직접 명시할 수 있다.(0% 0% : 왼쪽 위 / 100% 100% : 오른쪽 아래)
+
+1-5. background-attachment
+
+<style>
+    body {
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: local;
+    background-attachment: scroll;
+    }
+</style>
+
+  - 배경 이미지를 스크롤과는 무관하게 해당 위치에 고정시킨다.
+  - fixed : 고정된 배경 이미지는 스크롤과는 무관하게 화면의 위치에서 이동하지 않는다.
+  - local : 요소 내 스크롤 시 배경 이미지가 같이 스크롤된다.
+  - scroll : 배경 이미지가 요소를 따라 같이 스크롤된다.
+
+1-6 background 
+
+<style>
+    body { background: url(dog.jpg) no-repeat center center fixed;}
+</style>
+
+  - 위에서 언급한 모든 background 속성들을 한 줄로 설정할 수 있다. 

@@ -1,0 +1,64 @@
+리스트 
+  - 리스트(list)란 여러 요소들을 일렬로 나열한 목록이나 명단을 의미한다.
+
+  - HTML에서는 다음과 같은 리스트를 제공하고 있다.
+    1. 순서가 없는 리스트(Unordered List)
+    2. 순서가 있는 리스트(Ordered List)
+    3. 정의 리스트(Definition List)
+
+1. 순서가 없는 리스트(Unordered List)
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+</ul>
+ 
+  - 순서가 없는 리스트는 <ul> 태그로 시작하며, 여기에 포함되는 각각의 리스트는 <li> 태그로 시작한다.
+  - 각각의 리스트는 검은색의 작은 원(Bullet)이 위치한다. 
+
+2. 순서가 있는 리스트(Ordered List)
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+</ol>
+ 
+  - 순서가 있는 리스트는 <ol> 태그로 시작하며, 여기에 포함되는 각각의 리스트는 <li> 태그로 시작한다.
+  - 각각의 리스트는 숫자가 위치한다.
+
+3. 정의 리스트(Description List)
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>JS</dt>
+    <dd>Javascript</dd>
+</dl>
+ 
+  - 정의 리스트는 <dl> 태그로 시작하며, 여기에 포함되는 각각의 리스트는 <dt> 태그와 <dd> 태그가 있다.
+  - <dt> 태그는 용어의 이름이 들어간다.
+  - <dd> 태그는 용어에 대한 정의가 들어간다.
+
+테이블
+  - 여러 종류의 데이터(data)를 표로 정리하여 보여준다.
+
+<table>
+    <caption>제목</caption>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+</table>
+ 
+  - 테이블은 <table> 태그로 시작하며, 여기에 포함되는 각각의 요소들은 <caption> 태그, <tr> 태그, <td> 태그, <th> 태그가 있다.
+  - <caption> 태그는 테이블의 제목을 나타낸다.
+  - <tr> 태그는 행을 만들어준다.
+  - <td> 태그는 하나의 행에 각각의 셀을 나타낸다.
+  - <th> 태그는 각 열의 제목을 나타내며, 모든 내용은 자동으로 굵은 글씨에 가운데 정렬이 된다.

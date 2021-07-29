@@ -1,0 +1,31 @@
+1. 크기 및 한계 설정
+
+height
+width
+max-width
+min-width
+max-height
+min-height
+
+1-1 height, width
+
+<style>
+    p {border: solid 1px; width: 10rem; height: 10rem;}
+</style>
+
+  - p단락에 실선의 테두리를 만든 후 너비와 높이를 10rem 설정한 코드다. 
+  - width : 너비 / height : 높이
+
+1-2 max-width / min width, max-height / min height
+
+<style>
+    p {
+        border: solid 1px; width: 10rem; height: 10rem;
+        max-width: 9rem; min-width: 5rem;
+        max-height: 9rem; min-height: 5rem;
+        }
+</style>
+
+  - max-width: 최대 너비 설정 / min-width: 최소 너비 설정
+    max-height: 최대 높이 설정 / min-height: 최소 높이 설정
+  - 테두리에 너비랑 높이를 각각 10rem으로 설정해주었으나, 최대 너비와 최대 높이를 각각 9rem으로 지정해주었으므로 조건에 따라 해당 코드는 너비와 높이가 9rem인 테두리가 만들어진다.

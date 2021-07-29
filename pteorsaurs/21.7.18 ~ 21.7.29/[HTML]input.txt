@@ -1,0 +1,193 @@
+1. form
+  - 정보를 입력할 수 있는 모든 것을 폼이라고 하며, 입력한 정보는 서버로 전송되어 처리된다.
+ 
+<form> 태그 속성
+  - action 속성 : 입력한 데이터를 어디로 보낼 건지 위치 지정한다.
+  - method 속성 : 입력한 데이터를 어떻게 전달할지 지정한다.
+ 
+2. method
+GET 방식 
+  - 데이터를 서버에 전송할 때 URL에 데이터를 넣어서 전송한다.
+  - 데이터가 주소 입력창에 그대로 나타나기 때문에 보안에 문제가 있을 수 있다.
+  - 전송할 수 있는 데이터의 크기가 제한적이라 데이터의 크기가 작으며 중요하지 않은 정보를 보낼 때 주로 사용한다.
+
+POST 방식
+  - 데이터를 서버에 전송할 때 header의 body에 담겨서 전송된다.
+  - URL 상의 전달한 정보가 표시되지 않으며, GET 방식보다 안전하다.
+  - 전송할 수 있는 데이터의 크기의 제한이 없다.
+
+3. label
+<form action="서버 주소">
+<label for="id"> 
+    아이디 : <input type="text" id="id"> 
+</label>
+
+<label for="password">
+    비밀번호 <input type="password" id="password">
+</label>
+</form>
+ 
+  - label 은 폼의 양식에 이름 붙이는 태그다.
+  - label의 주요 속성은 for다.
+    → label의 for의 값과 input의 id의 값이 같으면 연결된다.
+  - label을 클릭하면 연결된 폼으로 넘어가진다.
+
+ 
+
+ 
+
+4. form의 요소
+1. text, password, submit, fieldset, legend
+<form action="서버 주소">
+    <fieldset>
+    <legend>로그인창</legend>
+    <label for="id"> 
+        아이디 : <input type="text" id="id"> 
+    </label>
+    <label for="password">
+        비밀번호 <input type="password" id="password">
+    </label>
+    <input type="submit" value="로그인">
+    </fieldset>
+</form>
+ 
+  - text : 사용자로부터 텍스트를 입력받을 수 있다.
+  - password : 사용자로부터 비밀번호를 입력받을 수 있다.
+  - submit : 사용자로부터 입력받은 데이터를 서버의 폼 핸들러로 제출하는 버튼이다. 폼 핸들러(form-handler)란 입력받은 데이터를 처리하기 위한 서버 측의 웹 페이지를 의미한다.
+  - fieldset : form요소와 관련된 데이터들을 하나로 묶어주는 역할을 한다. 
+  - legend : fieldset 요소 안에서만 사용할 수 있으며, fieldset 요소의 제목을 나타낸다.
+
+5. radio. checkbox
+<form>
+    <input type="radio" name="En" value="a" checked> a <br>
+    <input type="radio" name="En" value="b"> b <br>
+    <input type="radio" name="En" value="c"> c <br>
+    <input type="radio" name="En" value="d"> d <br>
+<br>
+    <input type="checkbox" name="En" value="a" checked> a <br>
+    <input type="checkbox" name="En" value="b"> b <br>
+    <input type="checkbox" name="En" value="c"> c <br>
+    <input type="checkbox" name="En" value="d" disabled> d
+</form>
+ 
+  - radion : 여러 개의 옵션 중에서 하나만 선택 가능하다.
+  - checkbox : 여러 개의 옵션 중에서 복수 선택이 가능하다.
+  - chacked : 여러 개의 옵션 중에서 미리 선택되는 옵션을 지정할 수 있다.
+  - disabled 여러 개의 옵션 중에서 해당 옵션을 선택할 수 없게 한다.
+ 
+6. select
+<form action="">
+    <select name="English">
+        <option value="a" selected>a</option>
+        <option value="b">b</option> 
+        <option value="c">c</option>
+        <option value="d">d</option>
+    </select>
+</form>
+ 
+  - select : 여러 개의 옵션이 드롭다운 리스트(drop-down list)로 되어 있으며, 그중에서 단 하나의 옵션만 입력받을 수 있다.
+  - selected : 드롭다운 리스트 중에서 처음에 미리 선택되는 옵션을 지정할 수 있다.
+
+7. textarea
+<form action="">
+    <textarea name="message" cols="30" rows="10">
+        내용
+    </textarea>
+</form>
+ 
+  - 박스 형태의 입력할 수 있는 창이 만들어진다.
+  - 행과 열의 크기를 지정할 수 있다.
+
+8. button
+<button type="button">
+    버튼을 눌러주세요.
+</button>
+ 
+  - 사용자가 누를 수 있는 버튼을 나타낸다.
+
+9. number
+<form action="">
+    <p>숫자를 0부터 100까지 입력해주세요.</p>
+    <input type="number" name="number" min="0" max="100" step="5">
+</form>
+ 
+  - 사용자가 숫자를 입력할 수 있도록 한다.
+  - 우측에 숫자의 크기를 조절할 수 있는 상하 버튼이 있다.
+  - min, max : 제한값을 설정한다.
+  - step : 숫자 간격을 설정한다.
+
+10. range
+<form action="">
+    <p>수평바를 이용하여 숫자를 골라주세요</p>
+    0<input type="range" name="number" min="0" max="100" oninput="document.getElementById('value1').innerHTML=this.value;">100
+    <span id="value1"></span>
+</form>
+
+  - 수평 조절바로 숫자를 조절할 수 있다. 
+  - number 속성과 같이 min, max, step을 사용한다.
+  - 코드를 수정할 때 oninput="document.getElementById('value1').innerHTML=this.value;"랑 <span id="value1"></span>은 현재 숫자가 얼마인지 확인하는 코드로 복붙 해주시면 됩니다.
+
+11. color
+<form action="">
+    <input type="color" name="color">
+</form>
+
+  - 색상을 선택할 수 있는 도구를 보여준다.
+ 
+12. date
+<form action="">
+    <input type="color" name="color">
+</form>
+ 
+  - 날짜를 선택할 수 있는 캘린더를 보여준다.
+
+13. time
+<form action="">
+    <input type="time" name="time">
+</form>
+ 
+  - 시간을 선택할 수 있는 도구를 보여준다.
+
+14. datetime-local
+<form action="">
+    <input type="datetime-local" name="datetime-local">
+</form>
+ 
+  - 날짜를 선택할 수 있는 캘린더와 시간을 선택할 수 있는 도구를 보여준다.
+
+15. month
+<form action="">
+    <input type="month" name="month">
+</form>
+ 
+  - 연도와 월을 입력할 수 있는 캘린더를 보여준다.
+
+16. week
+<form action="">
+    <input type="week" name="week">
+</form>
+ 
+  - 연도와 몇 번째 주인지 입력할 수 있는 캘린더를 보여준다.
+
+17. email
+<form action="">
+    <input type="email" name="email">
+</form>
+ 
+  - email 주소를 입력할 수 있도록 하며, email 주소가 유효한 email 주소인지 자동으로 검사한다.
+
+18. url
+<form action="">
+    <input type="url" name="url">
+</form>
+ 
+  - 사용자가 URL 주소를 입력할 수 있도록 하며, URL 주소가 유효한 주소인지 자동으로 검사한다.
+
+19. search
+<form action="">
+    <input type="search" name="search">
+</form>
+ 
+  - 사용자가 검색어를 입력할 수 있도록 해준다.
+  - 검색 필드는 텍스트 필드(text field)와 동일하게 동작한다.
+  - 입력 필드에 검색어를 입력하면 우측에 X 표시가 생겨 바로 삭제할 수 있다.
