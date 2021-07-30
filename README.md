@@ -73,4 +73,4 @@
 최종적으로 목표 선정까지 완료되었다면, 각자 공부를 시작하면 되며 공부하며 습득한 정보나 중요한 점을 정리하여 본인의 블로그에 업로드하고 공유하여 함께 코드리뷰를 하며 건설적으로 진행하면 됨.
 
 ## 스터디 진행 현황
-[Study Progress](https://github.com/Xeros/Study/projects)
+[Study Progress](https://github.com/XerosLab/Study/projects)
