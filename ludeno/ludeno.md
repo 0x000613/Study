@@ -48,3 +48,16 @@ null 병합 연산자 추가 공부 필요.
 ## 21-07-25
 콜백 함수에 대해 블로그 게시
 - [ludeno Tistory](https://ludeno-studying.tistory.com/74)
+
+## 21-08-01
+07-25일부터 07-31까지 개인적으로 자바스크립트 공부하면 배우고 싶었던거 공부(DOM, 랜덤함수 등)
+그리고 모던 자바스크립트 주차 목표 달성
+
+객체, 메소드 게시물 작성
+- [ludeno Tistory](https://ludeno-studying.tistory.com/79)
+- [ludeno Tistory](https://ludeno-studying.tistory.com/80)
+
+
+
+
+
