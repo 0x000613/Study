@@ -57,7 +57,11 @@ null 병합 연산자 추가 공부 필요.
 - [ludeno Tistory](https://ludeno-studying.tistory.com/79)
 - [ludeno Tistory](https://ludeno-studying.tistory.com/80)
 
+## 21-08-03
+이번주 목표 지정: 모던 자바스크립트 5-1 ~ 6-11
 
+this 게시물 작성
+- [ludeno Tistory](https://ludeno-studying.tistory.com/81)
 
 
 
