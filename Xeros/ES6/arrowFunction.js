@@ -10,6 +10,8 @@
 //     function() { alert("취소 버튼을 누르셨습니다."); }
 //   );
 
+//test
+
 let userAnswer = true
 
 function ask(question, yes, no) {
